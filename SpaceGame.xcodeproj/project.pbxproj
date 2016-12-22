@@ -7,27 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		665DD1501E0B19D900D930F5 /* sms-alert-5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 665DD14F1E0B19D900D930F5 /* sms-alert-5.mp3 */; };
+		665DD1521E0B1B6F00D930F5 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665DD1511E0B1B6F00D930F5 /* GameOverScene.swift */; };
+		665DD1541E0B1C1B00D930F5 /* GameOverScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 665DD1531E0B1C1B00D930F5 /* GameOverScene.sks */; };
+		665DD1581E0B271E00D930F5 /* Vaikings.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 665DD1551E0B271E00D930F5 /* Vaikings.mp3 */; };
+		665DD1591E0B271E00D930F5 /* Varjag_WOWships.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 665DD1561E0B271E00D930F5 /* Varjag_WOWships.mp3 */; };
+		665DD15A1E0B271E00D930F5 /* WrathOfPoseidon_WOWships.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 665DD1571E0B271E00D930F5 /* WrathOfPoseidon_WOWships.mp3 */; };
+		665DD15C1E0B290E00D930F5 /* DamageDealers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 665DD15B1E0B290E00D930F5 /* DamageDealers.mp3 */; };
 		668318681E097305006A2AAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668318671E097305006A2AAD /* AppDelegate.swift */; };
 		6683186A1E097305006A2AAD /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 668318691E097305006A2AAD /* GameScene.sks */; };
-		6683186C1E097305006A2AAD /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6683186B1E097305006A2AAD /* Actions.sks */; };
 		6683186E1E097305006A2AAD /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683186D1E097305006A2AAD /* GameScene.swift */; };
 		668318701E097305006A2AAD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683186F1E097305006A2AAD /* GameViewController.swift */; };
 		668318731E097305006A2AAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668318711E097305006A2AAD /* Main.storyboard */; };
 		668318751E097305006A2AAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668318741E097305006A2AAD /* Assets.xcassets */; };
 		668318781E097305006A2AAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 668318761E097305006A2AAD /* LaunchScreen.storyboard */; };
+		668318841E097572006A2AAD /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6683187F1E097572006A2AAD /* explosion.mp3 */; };
+		668318851E097572006A2AAD /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 668318801E097572006A2AAD /* Explosion.sks */; };
+		668318861E097572006A2AAD /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 668318811E097572006A2AAD /* spark.png */; };
+		668318871E097572006A2AAD /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 668318821E097572006A2AAD /* Starfield.sks */; };
+		668318881E097572006A2AAD /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 668318831E097572006A2AAD /* torpedo.mp3 */; };
+		6683188D1E09C893006A2AAD /* MenuScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 6683188C1E09C893006A2AAD /* MenuScene.sks */; };
+		6683188F1E09EF87006A2AAD /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6683188E1E09EF87006A2AAD /* MenuScene.swift */; };
+		66A4E86C1E0C3A1F00A06F6F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66A4E86B1E0C3A1F00A06F6F /* GoogleService-Info.plist */; };
+		66A4E86E1E0C3A4000A06F6F /* LoginSignupScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 66A4E86D1E0C3A4000A06F6F /* LoginSignupScene.sks */; };
+		66A4E8701E0C3A7400A06F6F /* LoginSignupScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A4E86F1E0C3A7400A06F6F /* LoginSignupScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		665DD14F1E0B19D900D930F5 /* sms-alert-5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sms-alert-5.mp3"; sourceTree = "<group>"; };
+		665DD1511E0B1B6F00D930F5 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		665DD1531E0B1C1B00D930F5 /* GameOverScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOverScene.sks; sourceTree = "<group>"; };
+		665DD1551E0B271E00D930F5 /* Vaikings.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Vaikings.mp3; sourceTree = "<group>"; };
+		665DD1561E0B271E00D930F5 /* Varjag_WOWships.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Varjag_WOWships.mp3; sourceTree = "<group>"; };
+		665DD1571E0B271E00D930F5 /* WrathOfPoseidon_WOWships.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WrathOfPoseidon_WOWships.mp3; sourceTree = "<group>"; };
+		665DD15B1E0B290E00D930F5 /* DamageDealers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DamageDealers.mp3; sourceTree = "<group>"; };
 		668318641E097305006A2AAD /* SpaceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		668318671E097305006A2AAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		668318691E097305006A2AAD /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		6683186B1E097305006A2AAD /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		6683186D1E097305006A2AAD /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		6683186F1E097305006A2AAD /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		668318721E097305006A2AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		668318741E097305006A2AAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		668318771E097305006A2AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		668318791E097305006A2AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6683187F1E097572006A2AAD /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		668318801E097572006A2AAD /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		668318811E097572006A2AAD /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		668318821E097572006A2AAD /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		668318831E097572006A2AAD /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		6683188C1E09C893006A2AAD /* MenuScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MenuScene.sks; sourceTree = "<group>"; };
+		6683188E1E09EF87006A2AAD /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		66A4E86B1E0C3A1F00A06F6F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		66A4E86D1E0C3A4000A06F6F /* LoginSignupScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LoginSignupScene.sks; sourceTree = "<group>"; };
+		66A4E86F1E0C3A7400A06F6F /* LoginSignupScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginSignupScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,16 +93,56 @@
 			isa = PBXGroup;
 			children = (
 				668318671E097305006A2AAD /* AppDelegate.swift */,
-				668318691E097305006A2AAD /* GameScene.sks */,
-				6683186B1E097305006A2AAD /* Actions.sks */,
-				6683186D1E097305006A2AAD /* GameScene.swift */,
 				6683186F1E097305006A2AAD /* GameViewController.swift */,
 				668318711E097305006A2AAD /* Main.storyboard */,
+				668318891E0975C9006A2AAD /* GameScene */,
+				6683188A1E09C65A006A2AAD /* Emittion */,
+				6683188B1E09C67E006A2AAD /* Sounds */,
 				668318741E097305006A2AAD /* Assets.xcassets */,
 				668318761E097305006A2AAD /* LaunchScreen.storyboard */,
 				668318791E097305006A2AAD /* Info.plist */,
+				66A4E86B1E0C3A1F00A06F6F /* GoogleService-Info.plist */,
 			);
 			path = SpaceGame;
+			sourceTree = "<group>";
+		};
+		668318891E0975C9006A2AAD /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				66A4E86F1E0C3A7400A06F6F /* LoginSignupScene.swift */,
+				66A4E86D1E0C3A4000A06F6F /* LoginSignupScene.sks */,
+				6683188E1E09EF87006A2AAD /* MenuScene.swift */,
+				6683188C1E09C893006A2AAD /* MenuScene.sks */,
+				6683186D1E097305006A2AAD /* GameScene.swift */,
+				668318691E097305006A2AAD /* GameScene.sks */,
+				665DD1511E0B1B6F00D930F5 /* GameOverScene.swift */,
+				665DD1531E0B1C1B00D930F5 /* GameOverScene.sks */,
+			);
+			name = GameScene;
+			sourceTree = "<group>";
+		};
+		6683188A1E09C65A006A2AAD /* Emittion */ = {
+			isa = PBXGroup;
+			children = (
+				668318801E097572006A2AAD /* Explosion.sks */,
+				668318811E097572006A2AAD /* spark.png */,
+				668318821E097572006A2AAD /* Starfield.sks */,
+			);
+			name = Emittion;
+			sourceTree = "<group>";
+		};
+		6683188B1E09C67E006A2AAD /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				665DD1551E0B271E00D930F5 /* Vaikings.mp3 */,
+				665DD15B1E0B290E00D930F5 /* DamageDealers.mp3 */,
+				665DD1561E0B271E00D930F5 /* Varjag_WOWships.mp3 */,
+				665DD1571E0B271E00D930F5 /* WrathOfPoseidon_WOWships.mp3 */,
+				6683187F1E097572006A2AAD /* explosion.mp3 */,
+				668318831E097572006A2AAD /* torpedo.mp3 */,
+				665DD14F1E0B19D900D930F5 /* sms-alert-5.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,11 +205,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				668318881E097572006A2AAD /* torpedo.mp3 in Resources */,
+				668318841E097572006A2AAD /* explosion.mp3 in Resources */,
 				668318731E097305006A2AAD /* Main.storyboard in Resources */,
+				6683188D1E09C893006A2AAD /* MenuScene.sks in Resources */,
+				66A4E86E1E0C3A4000A06F6F /* LoginSignupScene.sks in Resources */,
+				665DD1541E0B1C1B00D930F5 /* GameOverScene.sks in Resources */,
 				6683186A1E097305006A2AAD /* GameScene.sks in Resources */,
 				668318751E097305006A2AAD /* Assets.xcassets in Resources */,
 				668318781E097305006A2AAD /* LaunchScreen.storyboard in Resources */,
-				6683186C1E097305006A2AAD /* Actions.sks in Resources */,
+				665DD1581E0B271E00D930F5 /* Vaikings.mp3 in Resources */,
+				668318861E097572006A2AAD /* spark.png in Resources */,
+				668318871E097572006A2AAD /* Starfield.sks in Resources */,
+				665DD15A1E0B271E00D930F5 /* WrathOfPoseidon_WOWships.mp3 in Resources */,
+				66A4E86C1E0C3A1F00A06F6F /* GoogleService-Info.plist in Resources */,
+				668318851E097572006A2AAD /* Explosion.sks in Resources */,
+				665DD1501E0B19D900D930F5 /* sms-alert-5.mp3 in Resources */,
+				665DD15C1E0B290E00D930F5 /* DamageDealers.mp3 in Resources */,
+				665DD1591E0B271E00D930F5 /* Varjag_WOWships.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,7 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66A4E8701E0C3A7400A06F6F /* LoginSignupScene.swift in Sources */,
+				665DD1521E0B1B6F00D930F5 /* GameOverScene.swift in Sources */,
 				6683186E1E097305006A2AAD /* GameScene.swift in Sources */,
+				6683188F1E09EF87006A2AAD /* MenuScene.swift in Sources */,
 				668318701E097305006A2AAD /* GameViewController.swift in Sources */,
 				668318681E097305006A2AAD /* AppDelegate.swift in Sources */,
 			);
@@ -312,6 +400,7 @@
 				6683187E1E097305006A2AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

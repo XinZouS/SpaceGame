@@ -122,10 +122,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         yOffset = yOffset + 10
         if yOffset > 100 {
             yOffset = 0
-            // and , check (not too frequently) the BGM playing: 
-            if !musicPlayer.isPlaying {
-                gameMusicSetup()
-            }
         }
         
         alien.position = CGPoint(x: xPosition, y: self.frame.height + yOffset)
@@ -186,10 +182,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     func gameMusicSetup(){
         var bgmName = "Vaikings" // set a default name
         let bgmNum = Int(arc4random() % UInt32(BGMs.count))
-        bgmName = BGMs[bgmNum] as! String
+        bgmName = BGMs[bgmNum]
         
         let audioPath = Bundle.main.path(forResource: bgmName, ofType: "mp3")
         do {
+            print("will play music in GameScene.swift:190")
             try musicPlayer = AVAudioPlayer(contentsOf: URL(fileURLWithPath: audioPath!))
             musicPlayer.play()
         }catch{
@@ -260,6 +257,10 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         self.run(SKAction.wait(forDuration: 2)) { 
             explosion.removeFromParent()
+        }
+        // and , check (not too frequently) the BGM playing:
+        if musicPlayer.isPlaying == false {
+            gameMusicSetup()
         }
     }
     
